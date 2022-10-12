@@ -1,4 +1,4 @@
-```js
+```python
 import QA from 'joaofmds'
 
 class About extends QA:
