@@ -1,16 +1,32 @@
-### Hi there 👋
+```js
+import QA from 'joaofmds'
 
-<!--
-**joaofmds/joaofmds** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+class About extends QA:
+  name = 'João Souza'
+  area = 'Quality Assurance Analyst'
+  Organization = 'Smarthis'
+  local = 'Valparaíso de Goiás, Goiás, Brazil'
 
-Here are some ideas to get you started:
+class Automation extends Tests:
+  automations_tests = ['Robot_Framework', 'Selenium', 'Behave']
+  tools = ['JMeter', 'Jira']
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+class Tool extends DevOps {
+  operation_system  = ['Linux']
+  containers = ['Docker', 'Kubernetes']
+  clouds = ['Amazon Web Services', 'Google Cloud Platform']
+  ci_cd = ['Gitlab CI', 'Github Actions']
+  tools = ['Ansible', 'Terraform']
+
+class Language extends Development:
+  languages  = ['Python', 'Javascript', 'Shell Script']
+  frameworks = ['Django', 'ReactJS', 'NodeJS']
+
+```
+
+<p align="left">
+  <a href="#" alt="Gmail">
+  <img src="https://img.shields.io/badge/-Gmail-FF0000?style=flat-square&labelColor=FF0000&logo=gmail&logoColor=white&link='ms.joao.felipe@gmail.com'" /></a>
+
+  <a href="#" alt="Linkedin">
+  <img src="https://img.shields.io/badge/-Linkedin-0e76a8?style=flat-square&logo=Linkedin&logoColor=white&link='https://www.linkedin.com/in/joaofmds'" /></a>
