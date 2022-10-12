@@ -4,7 +4,7 @@ import QA from 'joaofmds'
 class About extends QA:
   name = 'João Souza'
   area = 'Quality Assurance Analyst'
-  Organization = 'Smarthis'
+  organization = 'Smarthis'
   local = 'Valparaíso de Goiás, Goiás, Brazil'
 
 class Automation extends Tests:
