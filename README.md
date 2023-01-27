@@ -1,7 +1,7 @@
 ```python
 import DevOps from 'joaofmds'
 
-class About_Me:
+class AboutMe:
   def __init__(self, name, office, company, local):
     self.name = 'João Souza'
     self.office = 'DevOps Jr.'
