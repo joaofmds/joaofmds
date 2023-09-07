@@ -1,32 +1,37 @@
-```python
-import DevOps from 'joaofmds'
+```typescript
+class AboutMe {
+  name: string;
+  office: string;
+  company: string;
+  local: string;
 
-class AboutMe:
-  def __init__(self, name, office, company, local):
-    self.name = 'João Souza'
-    self.office = 'DevOps Jr.'
-    self.company = 'BR GAAP'
-    self.local = 'Valparaíso de Goiás, Goiás, Brazil'
-  
-class Tool(DevOps):
-  def __init__(self, operation_system, containers, cloud, ci_cd, automation):
-    self.operation_system  = ['Linux', 'Windows Server']
-    self.containers = ['Docker', 'Kubernetes']
-    self.cloud = ['Microsoft Azure', 'Amazon Web Services']
-    self.ci_cd = ['Jenkins', 'Gitlab CI']
-    self.automation = ['Ansible', 'Terraform']
+  constructor(name: string, office: string, company: string, local: string) {
+    this.name = 'João Souza';
+    this.office = 'SRE Analyst';
+    this.company = 'Grupo Boticário';
+    this.local = 'Valparaíso de Goiás, Goiás, Brazil';
+  }
+}
 
-class Development:
-  def __init__(self, languages, frameworks, databases):
-    self.languages  = ['Python', 'Javascript', 'Shell Script']
-    self.frameworks = ['Django', 'ReactJS', 'NodeJS']
-    self.databases = ['PostgreSQL', 'MySQL']
-    
-class Test(QA):
-   def __init__(self, automation_tests, tools):
-    self.automation_tests = ['Postman', 'Robot_Framework', 'Selenium', 'Behave']
-    self.tools = ['JMeter', 'Jira']
+class Tool extends SRE {
+  operation_system: string[] = ['Linux'];
+  containers: string[] = ['Docker', 'Kubernetes', 'Helm Chart', 'Crossplane'];
+  cloud: string[] = ['Amazon Web Services'];
+  ci_cd: string[] = ['Github Actions', 'Gitlab CI'];
+  automation: string[] = ['Ansible', 'Terraform'];
+  observability: string[] = ['New Relic', 'Prometheus', 'Grafana', 'Zabbix'];
+}
 
+class Development {
+  languages: string[] = ['Python', 'Javascript', 'Shell Script'];
+  frameworks: string[] = ['Django', 'Typescript', 'NodeJS'];
+  databases: string[] = ['PostgreSQL', 'MongoDB', 'Redis'];
+}
+
+class Test extends QA {
+  automation_tests: string[] = ['Postman', 'Robot_Framework', 'Selenium', 'Behave'];
+  tools: string[] = ['JMeter', 'Jira'];
+}
 ```
 
 <p align="left">
