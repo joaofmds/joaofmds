@@ -15,22 +15,21 @@ class AboutMe {
 
 class Tool extends SRE {
   operation_system: string[] = ['Linux'];
-  containers: string[] = ['Docker', 'Kubernetes', 'Helm Chart', 'Crossplane'];
+  containers: string[] = ['Docker', 'Kubernetes', 'Helm Chart'];
   cloud: string[] = ['Amazon Web Services'];
-  ci_cd: string[] = ['Github Actions', 'Gitlab CI'];
+  ci_cd: string[] = ['Github Actions', 'ArgoCD'];
   automation: string[] = ['Ansible', 'Terraform'];
   observability: string[] = ['New Relic', 'Prometheus', 'Grafana', 'Zabbix'];
 }
 
 class Development {
-  languages: string[] = ['Python', 'Javascript', 'Shell Script'];
-  frameworks: string[] = ['Django', 'Typescript', 'NodeJS'];
+  languages: string[] = [ 'Javascript', 'Typescript', 'Python','Shell Script'];
+  frameworks: string[] = ['Node.js', 'Nest.js', 'Django', 'Flask'];
   databases: string[] = ['PostgreSQL', 'MongoDB', 'Redis'];
 }
 
 class Test extends QA {
-  automation_tests: string[] = ['Postman', 'Robot_Framework', 'Selenium', 'Behave'];
-  tools: string[] = ['JMeter', 'Jira'];
+  automation_tests: string[] = ['Postman', 'Cypress', 'Robot_Framework', 'Selenium', 'JMeter'];
 }
 ```
 
