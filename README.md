@@ -18,18 +18,14 @@ class Tool extends SRE {
   containers: string[] = ['Docker', 'Kubernetes', 'Helm Chart'];
   cloud: string[] = ['Amazon Web Services'];
   ci_cd: string[] = ['Github Actions', 'ArgoCD'];
-  automation: string[] = ['Ansible', 'Terraform'];
-  observability: string[] = ['New Relic', 'Prometheus', 'Grafana', 'Zabbix'];
+  automation: string[] = ['Terraform'];
+  observability: string[] = ['New Relic', 'Prometheus', 'Grafana'];
 }
 
 class Development {
-  languages: string[] = [ 'Javascript', 'Typescript', 'Python','Shell Script'];
-  frameworks: string[] = ['Node.js', 'Nest.js', 'Django', 'Flask'];
-  databases: string[] = ['PostgreSQL', 'MongoDB', 'Redis'];
-}
-
-class Test extends QA {
-  automation_tests: string[] = ['Postman', 'Cypress', 'Robot_Framework', 'Selenium', 'JMeter'];
+  languages: string[] = [ 'Javascript', 'Typescript'];
+  frameworks: string[] = ['Node.js', 'Nest.js'];
+  databases: string[] = ['PostgreSQL', 'MongoDB'];
 }
 ```
 
