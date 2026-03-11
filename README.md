@@ -7,8 +7,7 @@ class AboutMe {
 
   constructor(name: string, office: string, company: string, local: string) {
     this.name = 'João Souza';
-    this.office = 'SRE Analyst';
-    this.company = 'Grupo Boticário';
+    this.office = 'SRE Analyst', 'DevOps Engineer', 'Platform Engineer';
     this.local = 'Valparaíso de Goiás, Goiás, Brazil';
   }
 }
